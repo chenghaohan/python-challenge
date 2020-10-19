@@ -43,6 +43,15 @@ Mean = (f"Average Change: ${Average}")
 increase = (f"Greatest Increase in Profits: {Inc_date} ${Max_Inc}")
 decrease = (f"Greatest Decrease in Profits: {Dec_date} ${Max_Dec}")
 
+#print results
+print(Title)
+print(Num)
+print(TotalPL)
+print(Mean)
+print(increase)
+print(decrease)
+
+
 #create a text file and write output information, then save it to the correct path
 f = open(analysis,"w")
 f.write(f'{Title}\n-----------------------\n{Num}\n{TotalPL}\n{Mean}\n{increase}\n{decrease}')
